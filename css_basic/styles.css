@@ -15,5 +15,5 @@ main article{
 main aside{
     flex: 1;
     border:1px solid #ccc;
-    overflow: auto;
+    overflow-y: auto;
 }
