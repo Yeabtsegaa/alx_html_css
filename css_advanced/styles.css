@@ -1,0 +1,114 @@
+
+body{
+    background-image:  radial-gradient(circle at center, transparent 5%,#071629 95% ), linear-gradient(to top, #071629 20%, transparent), url(smile.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: center;
+    background-size: 100% 100%;
+    overflow-y: scroll;
+    background-color: #071629;
+    
+}
+header{
+    font-size: 10px;
+}
+
+img[alt="logo"]{
+    position:relative;
+    left:10%;
+    width: 10%;
+    height: auto;
+}
+ul{
+    width:20%;
+    position: absolute;
+    left:70%;
+    top: -0%;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+li{
+    display:inline;
+    margin:10px 30px;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding:5px;
+    translate:40%;
+    
+}
+li a:hover{
+    background-color: #C271FF;
+    transform: scale(1.2);
+}
+main{
+    margin:20px 0px;
+}
+.hero{
+    margin: 30px 0px;
+    
+}
+.hero-words{
+    position:relative;
+    display:block;
+    text-align: center;
+    margin-top: 9rem;
+}
+.hero-words h1{
+    font-size:7rem;
+    font-family: sans-serif;
+    color:white;
+    margin: 10px 0px;
+}
+button{
+    display: block;
+    margin-bottom: 400px;
+    margin-top: 50px;;
+    position:relative;
+    left: 50%;
+    translate:-50%;
+    padding: 20px;
+    background-color: #C271FF;
+    border-radius: 70px;
+    font-family: sans-serif;
+    color:white
+    
+}
+button:hover{
+    box-shadow: 0px 4px 2px 4px rgb(0,0,0, 0.5);
+}
+
+.hero-words span{
+    margin: 0 20px;
+    position: relative;
+    top: -25%;
+    font-family: sans-serif;
+    color: white;
+}
+.lfp h2,h3,p{
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+}
+.lfp h2 span{
+    color:#C271FF
+}
+.lfp h2{
+    margin-bottom: 80px;
+    font-size: 2rem;
+}
+.pros-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pros-container div{
+    width:20%;
+}
+img[alt="pros"]{
+    width:50%;
+    translate: 50%;
+    border-radius: 50%;
+}
