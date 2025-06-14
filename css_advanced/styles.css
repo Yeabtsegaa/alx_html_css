@@ -9,6 +9,7 @@
 }
 body{
     background-color: #071629;
+    overflow-x: scroll;
 }
 header{
     font-size: 10px;
@@ -124,10 +125,10 @@ img[alt="pros"]{
 
 .quote-h{
     border:1px solid white;
-    width:100%;
+    width:100vw;
     translate: 10%;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    
     display: flex;
     justify-content: center;
     padding:10px;
@@ -166,13 +167,15 @@ blockquote{
 
 
 .videos{
-    margin: 0px 30px;
+    background-color: white;
+    width: 100vw;
 }
 .videos h2{
     text-align: center;
-    color:white;
+    color:rgb(0, 0, 0);
     font-family: sans-serif;
-    margin-bottom: 50px;
+    margin: 0px 0px 100px 0px;
+    padding: 2rem 0px 0px 0px;
     font-size: 2rem;
 }
 .videos span{
@@ -191,10 +194,12 @@ blockquote{
 .vid-container h3{
     text-align: start;
     font-family: sans-serif;
+    color:black;
 }
 .vid-container p{
     text-align: start;
     font-family: sans-serif;
+    color:black;
 }
 .vid-container video{
     width: 100%;
@@ -204,7 +209,7 @@ blockquote{
     align-items: center;;
 }
 .rater h4{
-    color:white;
+    color:#C271FF;
     font-family: sans-serif;
 }
 img[alt="pro1"]{
@@ -215,4 +220,48 @@ img[alt="pro1"]{
 .rating{
     display: flex;
     justify-content: space-between;
+    
+}
+
+
+
+
+.membership{
+    width:100vw;
+}
+.membership h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;;
+}
+.membership span{
+    color:#C271FF
+}
+.membership h3 .membership p{
+    font-family: sans-serif;
+}
+.box-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 30px;
+    width:60%;
+    
+    position: relative;
+    left:20%;
+    margin-top: 50px;
+}
+.box{
+    width:20%;
+    
+    margin: 0px 70px 0px 0px;
+}
+img[alt="logo2"]{
+    width: 30%;
+    position:relative;
+    left:50%;
+    translate: -50%
+}
+.button2 button{
+    margin: 50px 0px 50px 0px;
 }
